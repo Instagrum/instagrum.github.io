@@ -7,12 +7,12 @@ body {
 	font-family: helvetica;
 	color: #444;
 	font-weight: bold;
-	padding-left: 320px;
+	padding-left: 300px;
 	display: inline-block;
 	vertical-align: top;
 }
 #winu {
-
+	color: #3f729b;
 }
 img {
 	height: 60px;
