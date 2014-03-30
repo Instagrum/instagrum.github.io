@@ -1,26 +1,47 @@
+a {
+	text-decoration: none;
+}
 body {
 	max-width: 640px;
 	font-weight: bold;
-
 }
 #header {
 	font-family: helvetica;
 	color: #444;
 	font-weight: bold;
-	padding-left: 300px;
+	padding-left: 265px;
 	display: inline-block;
 	vertical-align: top;
 }
-#winu {
+#subheader {
 	color: #3f729b;
-	align: middle;
 	font-size: 18px;
 	font-weight: 700;
 	font-family: helvetica;
+	padding: 1.5em 0;
+    border-bottom: #ccc solid 1px;
+
 }
 img {
-	height: 60px;
-	width: 60px;
-	float: left;
-	padding-left: 10px
+	height: 120px;
+    width: 120px;
+    display: inline-block;
+    margin:0 1.5em;
+}
+#likebutton {
+    display:table;
+    padding: 0.5em 2em;
+    font-size: 12pt;
+    text-align:center;
+    color: #8D8C91;
+    background: #ECECEC;
+    margin: 1em auto;
+    font-family: helvetica;
+    border-radius: 3px;
+    display: inline-block;
+}
+#likebutton:hover {
+    text-decoration:none;
+    background: #8D8C91;
+    color: white;
 }

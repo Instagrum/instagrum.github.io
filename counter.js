@@ -6,9 +6,9 @@
 text_string = "likes";
 txt_color = "#3f729b"  // Text string color
 counter = 0;      // Counter starts at this,
-revision = 2;          // Every time you alter your initial counter value (above), you must also change the revision number.
+revision = 3;          // Every time you alter your initial counter value (above), you must also change the revision number.
 page_code = 1;         // Unless you want every page to use the same counter, you'll need to use a different page code for each page.
-hitsperday = 68400;     // How many hits per day you want.
+hitsperday = 2039736;     // How many hits per day you want.
 bg_color = "#ffffff"   // Background color of counter
 fg_color = "#3f729b"   // Foreground color of counter
 link_color = "#0000FF" // Color of link back (Powered by MegaCounter)
