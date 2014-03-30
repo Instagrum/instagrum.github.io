@@ -14,6 +14,3 @@ fg_color = "#3f729b"   // Foreground color of counter
 link_color = "#0000FF" // Color of link back (Powered by MegaCounter)
 back_color = "#FFFFFF" // Color of white space in counter area
 //--></SCRIPT>
-<SCRIPT language="JavaScript" SRC="http://www.pagetutor.com/megacounter/generic_cookie_1yr.js"></SCRIPT>
-<SCRIPT language="JavaScript" SRC="http://www.pagetutor.com/megacounter/megacounter.js"></SCRIPT>
-<!-- End MegaCounter HEAD tag code -->
