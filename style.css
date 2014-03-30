@@ -13,7 +13,7 @@ body {
 }
 #winu {
 	color: #3f729b;
-	display: inline;
+	align: middle;
 	font-size: 18px;
 	font-weight: 700;
 	font-family: helvetica;
