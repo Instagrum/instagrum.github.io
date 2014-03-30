@@ -11,10 +11,9 @@ body {
 	display: inline-block;
 	vertical-align: top;
 }
-img {
+#reload {
 	height: 40px;
 	width: 40px;
-	display: inline-block;
 	padding-left: 300px;
 	vertical-align: top;
 }
