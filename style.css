@@ -4,6 +4,8 @@ body {
 
 }
 #header {
-	font-family: helvetica
+	font-family: helvetica;
 	color: #444;
+	font-weight: bold;
+	padding-left: 200px
 }
