@@ -1,38 +1,44 @@
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
-body {
-	max-width: 640px;
-	font-weight: bold;
-}
-#header {
-	font-family: helvetica;
-	color: #444;
-	font-weight: bold;
-	padding-left: 265px;
-	display: inline-block;
-	vertical-align: top;
-}
-#subheader {
-	color: #3f729b;
-	font-size: 18px;
-	font-weight: 700;
-	font-family: helvetica;
-	padding: 1.5em 0;
-    border-bottom: #ccc solid 1px;
 
+body {
+    max-width: 640px;
+    font-weight: 700;
 }
+
+#header {
+    font-family: helvetica;
+    color: #444;
+    font-weight: 700;
+    padding-left: 270px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#subheader {
+    color: #3f729b;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: helvetica;
+    padding: 1.5em 0;
+    border-bottom: #ccc solid 1px;
+    border-top: #ccc solid 1px;
+    text-align: center;
+}
+
 img {
-	height: 120px;
+    height: 120px;
     width: 120px;
     display: inline-block;
-    margin:0 1.5em;
+    margin: 0 1.5em;
 }
+
 #likebutton {
-    display:table;
-    padding: 0.5em 2em;
+    display: table;
+    padding: .5em 2em;
     font-size: 12pt;
-    text-align:center;
+    text-align: center;
     color: #8D8C91;
     background: #ECECEC;
     margin: 1em auto;
@@ -40,8 +46,9 @@ img {
     border-radius: 3px;
     display: inline-block;
 }
+
 #likebutton:hover {
-    text-decoration:none;
+    text-decoration: none;
     background: #8D8C91;
-    color: white;
+    color: #FFF;
 }
