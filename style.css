@@ -52,3 +52,23 @@ img {
     background: #8D8C91;
     color: #FFF;
 }
+
+#footer small {
+    display: block;
+    color: #ccc;
+    text-align: center;
+}
+
+code {
+    background: #FFF;
+    white-space: pre;
+    display: block;
+    margin: 1.5em;
+    margin-top: 0;
+    overflow-x: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding: 3px;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 14px;
+    border-radius: 2px;
+}
