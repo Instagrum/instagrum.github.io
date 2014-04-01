@@ -4,34 +4,72 @@ a {
 
 body {
     max-width: 640px;
-    font-weight: 700;
 }
 
 #header {
     font-family: helvetica;
     color: #444;
     font-weight: 700;
-    padding-left: 270px;
-    display: inline-block;
-    vertical-align: top;
+    text-align: center;
 }
 
 #subheader {
-    color: #3f729b;
-    font-size: 18px;
-    font-weight: 700;
-    font-family: helvetica;
     padding: 1.5em 0;
-    border-bottom: #ccc solid 1px;
     border-top: #ccc solid 1px;
     text-align: center;
 }
 
 img {
-    height: 120px;
-    width: 120px;
+    height: 612px;
+    width: 612px;
     display: inline-block;
     margin: 0 1.5em;
+}
+
+.counterheart {
+    display: inline-block;
+    padding-left: 3px;
+}
+
+#counter {
+    color: #3f729b;
+    font-family: helvetica;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.countertext {
+    color: #3f729b;
+    display: inline-block;
+    font-family: helvetica;
+    font-weight: 700;
+}
+
+.br {
+    display: block;
+    margin: -35px 0;
+}
+
+.username {
+    color: #3f729b;
+    display: inline-block;
+    font-family: helvetica;
+    font-weight: 700;
+    padding-left: 3px;
+}
+
+.comment {
+    display: inline-block;
+    font-family: helvetica;
+}
+
+.comment span {
+    color: #3f729b;
+}
+
+.br1 {
+    display: block;
+    margin: -35px 0;
 }
 
 #likebutton {
@@ -45,6 +83,7 @@ img {
     font-family: helvetica;
     border-radius: 3px;
     display: inline-block;
+    font-weight: 700;
 }
 
 #likebutton:hover {
