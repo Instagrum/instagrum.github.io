@@ -3,7 +3,7 @@ a {
 }
 
 body {
-    max-width: 640px;
+    max-width: 612px;
 }
 
 #header {
@@ -11,24 +11,50 @@ body {
     color: #444;
     font-weight: 700;
     text-align: center;
+    border-bottom: #ccc solid 1px;
+}
+
+.br3 {
+    margin: -10px 0;
+}
+
+#profpic {
+    padding-left: 5px;
+}
+
+.profpic img {
+    height: 40px;
+    width: 40px;
+    border: #e0e0e0 solid 1px;
+    border-radius: 100px;
+    vertical-align: top;
+    margin: 0;
+}
+
+.profpic p {
+    display: inline-block;
+    color: #3f729b;
+    font-weight: 700;
+    padding-left: 10px;
+    font-family: helvetica;
+}
+
+.br2 {
+    margin: -40px 0;
 }
 
 #subheader {
     padding: 1.5em 0;
-    border-top: #ccc solid 1px;
-    text-align: center;
 }
 
-img {
+#subheader img {
     height: 612px;
     width: 612px;
-    display: inline-block;
-    margin: 0 1.5em;
+    margin: 0 -11px;
 }
 
-.counterheart {
-    display: inline-block;
-    padding-left: 3px;
+.br4 {
+    margin: -45px 0;
 }
 
 #counter {
@@ -36,6 +62,7 @@ img {
     font-family: helvetica;
     display: inline-block;
     font-weight: 700;
+    padding-left: 5px;
 }
 
 .countertext {
@@ -46,8 +73,7 @@ img {
 }
 
 .br {
-    display: block;
-    margin: -35px 0;
+    margin: -40px 0;
 }
 
 .username {
@@ -55,7 +81,7 @@ img {
     display: inline-block;
     font-family: helvetica;
     font-weight: 700;
-    padding-left: 3px;
+    padding-left: 5px;
 }
 
 .comment {
@@ -68,13 +94,13 @@ img {
 }
 
 .br1 {
-    display: block;
     margin: -35px 0;
 }
 
 #likebutton {
     display: table;
-    padding: .5em 2em;
+    padding: .3em 1.5em;
+    padding-left: 10px;
     font-size: 12pt;
     text-align: center;
     color: #8D8C91;
@@ -90,24 +116,4 @@ img {
     text-decoration: none;
     background: #8D8C91;
     color: #FFF;
-}
-
-#footer small {
-    display: block;
-    color: #ccc;
-    text-align: center;
-}
-
-code {
-    background: #FFF;
-    white-space: pre;
-    display: block;
-    margin: 1.5em;
-    margin-top: 0;
-    overflow-x: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
-    padding: 3px;
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-    font-size: 14px;
-    border-radius: 2px;
 }
